@@ -1,0 +1,1 @@
+from osgeo import osrsrcProjection = osr.Spatialreference()srcProjection.SetUTM(17)dstProjection = osr.SpatialReference()dstProjection.SetWellKnownGeogCS('WGS84')#lat/longtransform = osr.CoordinateTransformation(srcProjection,                                         dstProjection)
